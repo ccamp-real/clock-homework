@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hour1{
+    color: teal;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    background-color: black;
+    animation-name: flip;
+    font-family: sans-serif;
+    animation-iteration-count: 2;
+}
+
+#minutes1{
+    color: red;
+    height: 500px;
+    font-size: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    font-family: sans-serif;
+    /* animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count: 2; */
+}
+
+#day{
+    color: rgb(39, 39, 39);
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 50px;
+    background-color: black;
+}
+
+#dots{
+    color: rgb(39, 39, 39);
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
